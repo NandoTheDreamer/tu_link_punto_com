@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+
+
+h3{
+    font-size: xx-large;
+    padding: 15%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 2rem;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#btnSi{
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 2rem;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    transform: translate(-100%,0);
+    background-color: green;
+}
+
+#btnNo{
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 2rem;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    transform: absolute;
+    background-color: red;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+
+
+        body{
+    background-image: url(model2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+    </style>
+    <script>
+        function sidiceSi(){
+            alert('Yupiiii! Sabía que dirías que si <3')
+        }
+
+        function sidiceNo(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+        }
+    </script>
+</head>
+<body>
+    <h3>¿Keila quieres ser mi San Valentín?</h3>
+    <input type="button" onclick="sidiceSi()" id="btnSi" value="Sí quiero :3"/>
+    <input type="button" onmouseover="sidiceNo()" id="btnNo" value="Nop"/>
+
+</body>
+</html>
